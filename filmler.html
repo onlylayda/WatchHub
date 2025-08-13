@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>En İyi Filmler - FilmHub</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+      <div class="nav-container">
+          <div class="nav-logo">
+              <h2><a href="index.html">WatchHub</a></h2>
+          </div>
+          <ul class="nav-menu">
+              <li><a href="filmler.html" class="active">Filmler</a></li>
+              <li><a href="diziler.html">Diziler</a></li>
+              <li><a href="onerilerim.html">Önerilerim</a></li>
+              <li><a href="iletisim.html">İletişim</a></li>
+              <li><button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button></li>
+          </ul>
+          <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+  </nav>
+
+  <section class="content-section">
+      <div class="container">
+          <h1 class="page-title">IMDB'de Yüksek Puanlı 10 Film</h1>
+          
+          <div class="content-grid">
+              <!-- Film 1 -->
+              <a href="https://www.imdb.com/title/tt0111161/" target="_blank" class="content-item">
+                  <div class="content-poster">
+                      <img src="images/Esaretin Bedeli.jpeg" alt="Esaretin Bedeli" class="poster-img">
+                  </div>
+                  <div class="content-details">
+                      <h3>Esaretin Bedeli</h3>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <span>9.3/10</span>
+                      </div>
+                      <div class="meta-info">
+                          <span><i class="fas fa-clock"></i> 142 dk</span>
+                          <span>Drama</span>
+                      </div>
+                      <div class="director"><strong>Yönetmen:</strong> Frank Darabont</div>
+                      <div class="cast"><strong>Oyuncular:</strong> Tim Robbins, Morgan Freeman</div>
+                      <div class="plot">
+                          <p>İki hükümlü yıllar boyunca bağ kurar ve ortak nezaket davranışları yoluyla teselli ve nihai kurtuluş bulur.</p>
+                      </div>
+                  </div>
+              </a>
+
+              <!-- Film 2 -->
+              <a href="https://www.imdb.com/title/tt0068646/" target="_blank" class="content-item">
+                  <div class="content-poster">
+                      <img src="images/Baba.jpg" alt="Baba" class="poster-img">
+                  </div>
+                  <div class="content-details">
+                      <h3>Baba</h3>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <span>9.2/10</span>
+                      </div>
+                      <div class="meta-info">
+                          <span><i class="fas fa-clock"></i> 175 dk</span>
+                          <span>Suç, Drama</span>
+                      </div>
+                      <div class="director"><strong>Yönetmen:</strong> Francis Ford Coppola</div>
+                      <div class="cast"><strong>Oyuncular:</strong> Marlon Brando, Al Pacino</div>
+                      <div class="plot">
+                          <p>Organize suç hanedanının yaşlanan patriği, gizli imparatorluğunun kontrolünü isteksiz oğluna devreder.</p>
+                      </div>
+                  </div>
+              </a>
+
+              <!-- Film 3 -->
+              <a href="https://www.imdb.com/title/tt0468569/" target="_blank" class="content-item">
+                  <div class="content-poster">
+                      <img src="images/Kara Şövalye.jpg" alt="Kara ��övalye" class="poster-img">
+                  </div>
+                  <div class="content-details">
+                      <h3>Kara Şövalye</h3>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <span>9.0/10</span>
+                      </div>
+                      <div class="meta-info">
+                          <span><i class="fas fa-clock"></i> 152 dk</span>
+                          <span>Aksiyon, Suç</span>
+                      </div>
+                      <div class="director"><strong>Yönetmen:</strong> Christopher Nolan</div>
+                      <div class="cast"><strong>Oyuncular:</strong> Christian Bale, Heath Ledger</div>
+                      <div class="plot">
+                          <p>Joker olarak bilinen tehdit Gotham halkına kaos getirdiğinde, Batman en büyük testini kabul etmelidir.</p>
+                      </div>
+                  </div>
+              </a>
+
+              <!-- Film 4 -->
+              <a href="https://www.imdb.com/title/tt0071562/" target="_blank" class="content-item">
+                  <div class="content-poster">
+                      <img src="images/Baba 2.jpg" alt="Baba 2" class="poster-img">
+                  </div>
+                  <div class="content-details">
+                      <h3>Baba 2</h3>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <span>9.0/10</span>
+                      </div>
+                      <div class="meta-info">
+                          <span><i class="fas fa-clock"></i> 202 dk</span>
+                          <span>Suç, Drama</span>
+                      </div>
+                      <div class="director"><strong>Yönetmen:</strong> Francis Ford Coppola</div>
+                      <div class="cast"><strong>Oyuncular:</strong> Al Pacino, Robert De Niro</div>
+                      <div class="plot">
+                          <p>Michael Corleone'nin imparatorluğunu genişletme çabalarının yanı sıra babasının geçmişi anlatılır.</p>
+                      </div>
+                  </div>
+              </a>
+
+              <!-- Film 5 -->
+              <a href="https://www.imdb.com/title/tt0050083/?ref_=chttp_t_5" target="_blank" class="content-item">
+                  <div class="content-poster">
+                      <img src="images/12 Öfkeli Adam.jpg" alt="12 Öfkeli Adam" class="poster-img">
+                  </div>
+                  <div class="content-details">
+                      <h3>12 Öfkeli Adam</h3>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <span>9.0/10</span>
+                      </div>
+                      <div class="meta-info">
+                          <span><i class="fas fa-clock"></i> 195 dk</span>
+                          <span>Biyografi, Drama</span>
+                      </div>
+                      <div class="director"><strong>Yönetmen:</strong> Sidney Lumet</div>
+                      <div class="cast"><strong>Oyuncular:</strong> Henry Fonda, Lee J. Cobb</div>
+                      <div class="plot">
+                          <p>New York'ta bir cinayet davasındaki jüri, aceleci bir karara geçmeden önce onları kanıtları daha dikkatli bir şekilde düşünmeye zorlayan tek bir üye tarafından hayal kırıklığına uğrar.</p>
+                      </div>
+                  </div>
+              </a>
+
+              <!-- Film 6 -->
+              <a href="https://www.imdb.com/title/tt0167260/" target="_blank" class="content-item">
+                  <div class="content-poster">
+                      <img src="images/Yüzüklerin Efendisi Kralın Dönüşü.jpg.webp" alt="Yüzüklerin Efendisi" class="poster-img">
+                  </div>
+                  <div class="content-details">
+                      <h3>Yüzüklerin Efendisi: Kralın Dönüşü</h3>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <span>9.0/10</span>
+                      </div>
+                      <div class="meta-info">
+                          <span><i class="fas fa-clock"></i> 201 dk</span>
+                          <span>Macera, Drama</span>
+                      </div>
+                      <div class="director"><strong>Yönetmen:</strong> Peter Jackson</div>
+                      <div class="cast"><strong>Oyuncular:</strong> Elijah Wood, Viggo Mortensen</div>
+                      <div class="plot">
+                          <p>Gandalf ve Aragorn, Frodo ve Sam'in Mordor'a olan yolculuğunda Sauron'un dikkatini dağıtır.</p>
+                      </div>
+                  </div>
+              </a>
+
+              <!-- Film 7 -->
+              <a href="https://www.imdb.com/title/tt0108052/?ref_=chttp_t_7" target="_blank" class="content-item">
+                  <div class="content-poster">
+                      <img src="images/Schindler'in Listesi.jpg" alt="Ucuz Roman" class="poster-img">
+                  </div>
+                  <div class="content-details">
+                      <h3>Schindler'in Listesi</h3>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <span>9.0/10</span>
+                      </div>
+                      <div class="meta-info">
+                          <span><i class="fas fa-clock"></i> 195 dk</span>
+                          <span>Savaş, Drama, Tarih</span>
+                      </div>
+                      <div class="director"><strong>Yönetmen:</strong> Steven Spielberg</div>
+                      <div class="cast"><strong>Oyuncular:</strong> Liam Neeson, Ralph Fiennes, Ben Kingsley</div>
+                      <div class="plot">
+                          <p>II. Dünya Savaşı sırasında Alman işgali altındaki Polonya'da yaşayan sanayici Oskar Schindler, Naziler tarafından Yahudi işçilerin zulmüne tanık olduktan sonra, giderek Yahudi işçileri için endişelenmeye başlar.</p>
+                      </div>
+                  </div>
+              </a>
+              <!-- Film 8 -->
+              <a href="https://www.imdb.com/title/tt0120737/" target="_blank" class="content-item">
+                <div class="content-poster">
+                    <img src="images/Yüzüklerin Efendisi Yüzük Kardeşliği.jpg" alt="Yüzüklerin Efendisi Kardeşlik" class="poster-img">
+                </div>
+                <div class="content-details">
+                    <h3>Yüzüklerin Efendisi: Yüzük Kardeşliği</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <span>8.9/10</span>
+                    </div>
+                    <div class="meta-info">
+                        <span><i class="fas fa-clock"></i> 178 dk</span>
+                        <span>Macera, Drama</span>
+                    </div>
+                    <div class="director"><strong>Yönetmen:</strong> Peter Jackson</div>
+                    <div class="cast"><strong>Oyuncular:</strong> Elijah Wood, Ian McKellen</div>
+                    <div class="plot">
+                        <p>Shire'dan uysal bir Hobbit ve sekiz yoldaş, güçlü Tek Yüzük'ü yok etmek ve Orta Dünya'yı Karanlık Lord Sauron'dan kurtarmak için bir yolculuğa çıkarlar.</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Film 9 -->
+            <a href="https://www.imdb.com/title/tt0110912/" target="_blank" class="content-item">
+                <div class="content-poster">
+                    <img src="images/Ucuz Roman.jpg" alt="Ucuz Roman" class="poster-img">
+                </div>
+                <div class="content-details">
+                    <h3>Ucuz Roman</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <span>8.8/10</span>
+                    </div>
+                    <div class="meta-info">
+                        <span><i class="fas fa-clock"></i> 154 dk</span>
+                        <span>Suç, Drama</span>
+                    </div>
+                    <div class="director"><strong>Yönetmen:</strong> Quentin Tarantino</div>
+                    <div class="cast"><strong>Oyuncular:</strong> John Travolta, Uma Thurman</div>
+                    <div class="plot">
+                        <p>İki mafya tetikçisi, bir boksör ve bir gangsterin hayatları şiddet hikayelerinde iç içe geçer.</p>
+                    </div>
+                </div>
+            </a>
+
+              <!-- Film 10 -->
+              <a href="https://www.imdb.com/title/tt0137523/" target="_blank" class="content-item">
+                  <div class="content-poster">
+                      <img src="images/Dövüş Kulübü.jpg" alt="Dövüş Kulübü" class="poster-img">
+                  </div>
+                  <div class="content-details">
+                      <h3>Dövüş Kulübü</h3>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <span>8.8/10</span>
+                      </div>
+                      <div class="meta-info">
+                          <span><i class="fas fa-clock"></i> 139 dk</span>
+                          <span>Drama</span>
+                      </div>
+                      <div class="director"><strong>Yönetmen:</strong> David Fincher</div>
+                      <div class="cast"><strong>Oyuncular:</strong> Brad Pitt, Edward Norton</div>
+                      <div class="plot">
+                          <p>Uykusuzluktan mustarip anlatıcı, Tyler Durden ile tanışır ve yeraltı dövüş kulübü kurarlar.</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </section>
+
+  <footer class="footer">
+      <div class="container">
+          <div class="footer-social">
+              <a href="https://instagram.com/simplylayda/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://github.com/onlylayda" target="_blank">
+                  <i class="fab fa-github"></i>
+              </a>
+              <a href="https://open.spotify.com/user/ilaydaozhann218" target="_blank">
+                  <i class="fab fa-spotify"></i>
+              </a>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2025 İlayda - Tüm hakları saklıdır.</p>
+          </div>
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
